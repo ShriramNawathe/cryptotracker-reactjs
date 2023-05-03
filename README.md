@@ -1,6 +1,6 @@
 #Deployment Link
-https://cryptotracker-shriramn.netlify.app/
-https://cryptotracker-reactjs-shriram.vercel.app/
+1. https://cryptotracker-shriramn.netlify.app/
+2. https://cryptotracker-reactjs-shriram.vercel.app/
 
 # Getting Started with Create React App
 
