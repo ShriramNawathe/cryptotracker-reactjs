@@ -9,3 +9,10 @@ npm install @mui/lab
 npm install @emotion/react
 npm install @emotion/styled
 
+1.
+constant.js
+constant.js export const API_URL = "https://api.coingecko.com/api/v3/coins";
+change:=
+get100Coins.js
+getCoinsDAta.js
+getCoinPrice.js
