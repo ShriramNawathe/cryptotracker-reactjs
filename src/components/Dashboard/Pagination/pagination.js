@@ -5,7 +5,7 @@ function PaginationComponent({ pageNumber, handleChange }) {
   return (
     <div className="pagination-div">
       <Pagination
-        count={10}
+        count={25}
         page={pageNumber}
         onChange={handleChange}
         sx={{

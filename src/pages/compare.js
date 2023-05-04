@@ -8,7 +8,7 @@ import Loader from "../components/Common/Loader/loader";
 import SelectCoin from "../components/Compare/SelectCoin/selectCoin";
 import List from "../components/Dashboard/List/list";
 import { coinObject } from "../functions/coinObject";
-import { get100Coins } from "../functions/get100Coins";
+import { get100Coins } from "../functions/get250Coins";
 import { getCoinData } from "../functions/getCoinData";
 import { getCoinPrices } from "../functions/getCoinPrices";
 import { settingChartData } from "../functions/settingChartData";

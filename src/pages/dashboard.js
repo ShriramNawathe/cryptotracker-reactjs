@@ -7,7 +7,7 @@ import Loader from "../components/Common/Loader/loader";
 import PaginationComponent from "../components/Dashboard/Pagination/pagination";
 import SearchComponent from "../components/Dashboard/Search/search";
 import TabsComponent from "../components/Dashboard/Tabs/tabs";
-import { get100Coins } from "../functions/get100Coins";
+import { get100Coins } from "../functions/get250Coins";
 
 function DashboardPage() {
   const [loading, setLoading] = useState(false);

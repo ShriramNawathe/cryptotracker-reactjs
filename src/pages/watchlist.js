@@ -4,7 +4,7 @@ import Footer from "../components/Common/Footer/footer";
 import Header from "../components/Common/Header";
 import Loader from "../components/Common/Loader/loader";
 import TabsComponent from "../components/Dashboard/Tabs/tabs";
-import { get100Coins } from "../functions/get100Coins";
+import { get100Coins } from "../functions/get250Coins";
 
 function WatchlistPage() {
   const coins = JSON.parse(localStorage.getItem("watchlist"));
