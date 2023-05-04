@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "../../Common/Button/button";
+import Button from "../Common/Button/button";
 import "./styles.css";
-import gradient from "../../../assets/gradient.png";
-import iPhone from "../../../assets/iphone.png";
+import gradient from "../../assets/gradient.png";
+import iPhone from "../../assets/iphone.png";
 import { motion } from "framer-motion";
 import { RWebShare } from "react-web-share";
 
