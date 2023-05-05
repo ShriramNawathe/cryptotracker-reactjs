@@ -8,7 +8,7 @@ import Loader from "../components/Common/Loader/loader";
 import SelectCoin from "../components/Compare/SelectCoin/selectCoin";
 import List from "../components/Dashboard/List/list";
 import { coinObject } from "../functions/coinObject";
-import { get100Coins } from "../functions/get250Coins";
+import { get150Coins } from "../functions/get150Coins";
 import { getCoinData } from "../functions/getCoinData";
 import { getCoinPrices } from "../functions/getCoinPrices";
 import { settingChartData } from "../functions/convertDate&Numbers/settingChartData";
@@ -71,7 +71,7 @@ function ComparePage() {
 
   const getData = async () => {
     setLoading(true);
-    const data = await get100Coins();
+    const data = await get150Coins();
     if (data) {
       setAllCoins(data);
     }

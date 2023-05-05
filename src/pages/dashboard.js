@@ -7,7 +7,7 @@ import Loader from "../components/Common/Loader/loader";
 import PaginationComponent from "../components/Dashboard/Pagination/pagination";
 import SearchComponent from "../components/Dashboard/Search/search";
 import TabsComponent from "../components/Dashboard/Tabs/tabs";
-import { get100Coins } from "../functions/get250Coins";
+import { get150Coins } from "../functions/get150Coins";
 
 function DashboardPage() {
   const [loading, setLoading] = useState(false);
@@ -41,7 +41,7 @@ function DashboardPage() {
 
   const getData = async () => {
     setLoading(true);
-    const data = await get100Coins();
+    const data = await get150Coins();
     if (data) {
       setCoins(data);
       setPaginatedCoins(data.slice(0, 10));

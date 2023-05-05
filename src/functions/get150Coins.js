@@ -2,7 +2,7 @@ import axios from "axios";
 // import { API_URL } from "../constants";
 // constant.js export const API_URL = "https://api.coingecko.com/api/v3/coins";
 const API_URL = "https://api.coingecko.com/api/v3/coins";
-export const get100Coins = () => {
+export const get150Coins = () => {
   const coins = axios
     .get(
       `${API_URL}/markets?vs_currency=usd&order=market_cap_desc&per_page=150&page=1&sparkline=false`

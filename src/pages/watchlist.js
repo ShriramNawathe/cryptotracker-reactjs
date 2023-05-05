@@ -4,7 +4,7 @@ import Footer from "../components/Common/Footer/footer";
 import Header from "../components/Common/Header";
 import Loader from "../components/Common/Loader/loader";
 import TabsComponent from "../components/Dashboard/Tabs/tabs";
-import { get100Coins } from "../functions/get250Coins";
+import { get150Coins } from "../functions/get150Coins";
 
 function WatchlistPage() {
   const coins = JSON.parse(localStorage.getItem("watchlist"));
@@ -17,7 +17,7 @@ function WatchlistPage() {
 
   const getData = async () => {
     setLoading(true);
-    const allCoins = await get100Coins();
+    const allCoins = await get150Coins();
     if (coins) {
       setMyWatchlist(allCoins.filter((item) => coins.includes(item.id)));
     }
