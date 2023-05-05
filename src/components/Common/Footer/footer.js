@@ -19,10 +19,10 @@ function Footer() {
         <a href="mailto:shrinawathe@gmail.com">
           <EmailIcon className="social-link" />
         </a>
-        <a href="www.linkedin.com/in/shriram-nawathe">
+        <a href="https://www.linkedin.com/in/shriram-nawathe">
           <LinkedInIcon className="social-link" />
         </a>
-        <a href="https://www.instagram.com/imshreeeeee/?igshid=ZDdkNTZiNTM">
+        <a href="https://www.instagram.com/imshreeeeee">
           <InstagramIcon className="social-link" />
         </a>
         <a href="https://www.twitter.com">
