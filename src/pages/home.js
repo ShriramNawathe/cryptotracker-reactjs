@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Common/Footer/footer";
 import Header from "../components/Common/Header";
 import LandingPageComponent from "../components/LandingPage";
-import Popup from "../components/PopUp";
+// import Popup from "../components/PopUp";
 
 function HomePage() {
   return (
@@ -10,7 +10,7 @@ function HomePage() {
       <Header />
       <LandingPageComponent />
       <Footer />
-      <Popup />
+      {/* <Popup /> */}
     </div>
   );
 }

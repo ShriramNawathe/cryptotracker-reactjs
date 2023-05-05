@@ -32,16 +32,18 @@ function Popup() {
   };
 
   return (
-    <div className="popup">
-      <button className='btnX' id="close" onClick={handleClose}>&times;</button>
-      <div className='info'>
-        <div className='personNmae'>Shriram Rajeshwar Nawathe</div>
-        <img className='img' src="https://drive.google.com/file/d/1uUv10MYNPP8lHRkvHHFhr9PDziJGtMO3/view?usp=drivesdk" alt="shriimg" />
+    <div className="popup-container">
+      <div className="popup">
+        <button className='btnX' id="close" onClick={handleClose}>&times;</button>
+        <div className="popup-content">
+          <div className='personName'>Shriram Rajeshwar Nawathe</div>
+          <img className='img' src="https://drive.google.com/file/d/1uUv10MYNPP8lHRkvHHFhr9PDziJGtMO3/view?usp=drivesdk" alt="shriimg" />
+          <div className='Description'>
+            <p>About project: CryptoTracker is the tracker you always needed. Compare different crypto currencies, look at their graphs - prices, total volumes, market cap, etc. Search from the top 150 Crypto currencies in real time and add them to your watchlist as well.</p>
+          </div>
+          <button className="letsgo" id="close" onClick={handleClose}><a href="#">Let's Go</a></button>
+        </div>
       </div>
-      <div className='Description'>
-        <p>About project: CryptoTracker is the tracker you always needed. Compare different crypto currencies, look at their graphs - prices, total volumes, market cap, etc. Search from the top 150 Crypto currencies in real time and add them to your watchlist aswell.</p>
-      </div>
-      <button id="close" onClick={handleClose}><a href="#">Lets Go</a></button>
     </div>
   );
 }
