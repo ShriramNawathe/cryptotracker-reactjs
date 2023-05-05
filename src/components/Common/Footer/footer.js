@@ -15,6 +15,7 @@ function Footer() {
       <h2 className="logo" onClick={() => topFunction()}>
         CryptoTracker<span>.</span>
       </h2>
+      <h4>©shriramnawathe@gmail.com</h4>
       <div className="social-links">
         <a href="mailto:shrinawathe@gmail.com">
           <EmailIcon className="social-link" />
