@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import "./styles.css";
 import TrendingUpRoundedIcon from "@mui/icons-material/TrendingUpRounded";
 import TrendingDownRoundedIcon from "@mui/icons-material/TrendingDownRounded";
-import { convertNumbers } from "../../../functions/convertNumbers";
+import { convertNumbers } from "../../../functions/convertDate&Numbers/convertNumbers";
 import { motion } from "framer-motion";
 import { Tooltip } from "@mui/material";
 import { IconButton } from "@mui/material";
 import StarBorderRoundedIcon from "@mui/icons-material/StarBorderRounded";
-import { addToWatchlist } from "../../../functions/addToWatchlist";
+import { addToWatchlist } from "../../../functions/addRemove/addToWatchlist";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
-import { hasBeenAdded } from "../../../functions/hasBeenAdded";
-import { removeFromWatchlist } from "../../../functions/removeFromWatchlist";
+import { hasBeenAdded } from "../../../functions/addRemove/hasBeenAdded";
+import { removeFromWatchlist } from "../../../functions/addRemove/removeFromWatchlist";
 
 function List({ coin, delay, isWatchlistPage }) {
   const [added, setAdded] = useState(hasBeenAdded(coin.id));

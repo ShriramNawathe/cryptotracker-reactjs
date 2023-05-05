@@ -5,10 +5,10 @@ import TrendingDownRoundedIcon from "@mui/icons-material/TrendingDownRounded";
 import { motion } from "framer-motion";
 import { IconButton } from "@mui/material";
 import StarBorderRoundedIcon from "@mui/icons-material/StarBorderRounded";
-import { addToWatchlist } from "../../../functions/addToWatchlist";
+import { addToWatchlist } from "../../../functions/addRemove/addToWatchlist";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
-import { hasBeenAdded } from "../../../functions/hasBeenAdded";
-import { removeFromWatchlist } from "../../../functions/removeFromWatchlist";
+import { hasBeenAdded } from "../../../functions/addRemove/hasBeenAdded";
+import { removeFromWatchlist } from "../../../functions/addRemove/removeFromWatchlist";
 
 function Grid({ coin, delay, isWatchlistPage }) {
   const [added, setAdded] = useState(hasBeenAdded(coin.id));

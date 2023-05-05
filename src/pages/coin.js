@@ -11,7 +11,7 @@ import List from "../components/Dashboard/List/list";
 import { coinObject } from "../functions/coinObject";
 import { getCoinData } from "../functions/getCoinData";
 import { getCoinPrices } from "../functions/getCoinPrices";
-import { settingChartData } from "../functions/settingChartData";
+import { settingChartData } from "../functions/convertDate&Numbers/settingChartData";
 
 function CoinPage() {
   const { id } = useParams();

@@ -11,7 +11,7 @@ import { coinObject } from "../functions/coinObject";
 import { get100Coins } from "../functions/get250Coins";
 import { getCoinData } from "../functions/getCoinData";
 import { getCoinPrices } from "../functions/getCoinPrices";
-import { settingChartData } from "../functions/settingChartData";
+import { settingChartData } from "../functions/convertDate&Numbers/settingChartData";
 
 function ComparePage() {
   const [allCoins, setAllCoins] = useState([]);
