@@ -5,7 +5,7 @@ const API_URL = "https://api.coingecko.com/api/v3/coins";
 export const get100Coins = () => {
   const coins = axios
     .get(
-      `${API_URL}/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=false`
+      `${API_URL}/markets?vs_currency=usd&order=market_cap_desc&per_page=150&page=1&sparkline=false`
     )
     .then((response) => {
       if (response.status == 200) {
